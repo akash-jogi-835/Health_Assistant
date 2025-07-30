@@ -2,7 +2,10 @@
 
 A mobile-friendly, accessible Streamlit app that provides health support in Telugu using Gemini AI. Designed for Telugu speakers who prefer to interact in their native language.
 
-## ఫీచర్లు (Features)
+# To Access:
+Link: https://healthassistant-ol8qyf5ysdji9k2esabrin.streamlit.app/
+
+## Features
 - తెలుగు UI, chat, and instructions
 - Health topics: ఆహారం (Diet), వ్యాయామం (Exercise), లక్షణాలు (Symptoms), వైద్య సలహా (Doctor Advice)
 - Large, mobile-friendly input field
@@ -10,13 +13,13 @@ A mobile-friendly, accessible Streamlit app that provides health support in Telu
 - Gemini AI answers in Telugu
 - Audio output for assistant responses (using gTTS)
 
-## అవసరమైనవి (Requirements)
+## Requirements
 - Python 3.8+
 - Streamlit
 - google-generativeai
 - gtts
 
-## ఇన్‌స్టాలేషన్ (Installation)
+## Installation
 1. Clone this repository or copy the files to your project folder.
 2. Install dependencies:
    ```bash
@@ -29,7 +32,7 @@ A mobile-friendly, accessible Streamlit app that provides health support in Telu
    source venv/bin/activate  # Mac/Linux
    ```
 
-## వాడకం (Usage)
+## Usage
 1. Get your Gemini API key from [Google MakerSuite](https://makersuite.google.com/app/apikey).
 2. Add your API key to the code (default is set in `health_ai_telugu.py`).
 3. Run the app:
@@ -38,8 +41,9 @@ A mobile-friendly, accessible Streamlit app that provides health support in Telu
    ```
 4. Open the provided local URL in your browser.
 
-## స్క్రీన్‌షాట్స్ (Screenshots)
-Add screenshots here for the UI and chat experience.
+## Screenshots
+<img width="1920" height="932" alt="image" src="https://github.com/user-attachments/assets/f8c042d9-2a1b-4830-8e10-c83d3a9c5b68" />
+
 
 ## లైసెన్స్ (License)
 MIT
