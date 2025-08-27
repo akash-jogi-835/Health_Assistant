@@ -53,7 +53,7 @@ if 'messages' not in st.session_state:
 if 'category' not in st.session_state:
     st.session_state['category'] = 'ఆహారం'
 if 'gemini_api_key' not in st.session_state:
-    st.session_state['gemini_api_key'] = "AIzaSyDlUN9wJ_Vvj5kCxC-YO-nRTtUHNeeHztg"
+    st.session_state['gemini_api_key'] = "AIzaSyCzXXpTfz894Z9M5hgvlegtvaDp9F2RGDs"
 
 def configure_gemini(api_key):
     try:
@@ -114,3 +114,4 @@ if prompt:
                 error_msg = f"AI లోపం: {str(e)}"
                 st.error(error_msg)
                 st.session_state['messages'].append({"role": "assistant", "content": error_msg})
+
